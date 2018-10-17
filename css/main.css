@@ -1,0 +1,639 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - GENERAL SETTINGS SECTION  */
+/*   02 - TYPOGRAPHY SECTION  */
+/*   03 - JUMBOTRON SECTION  */
+/*   04 - NAVIGATION SECTION */
+/*   05 - ABOUT SECTION */
+/*   06 - SERVICES SECTION */
+/*   07 - WORK SECTION */
+/*   08 - CLIENTS SECTION */
+/*   09 - BLOG SECTION */
+/*   10 - CONTACT SECTION */
+/*   11 - SOCIAL MEDIA SECTION */
+/*   12 - FOOTER SECTION */
+/*   13 - RESPONSIVE SECTION */
+
+
+
+/******** GENERAL SETTINGS SECTION START ********/
+
+.title {
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 8pt;
+}
+
+/******** TYPOGRAPHY SECTION START ********/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2pt;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    color: #898989;
+    line-height: 18px; 
+}
+
+
+/******** JUMBOTRON SECTION START ********/
+
+.jumbotron {
+    background: url('../img/placeholderbg.jpg') no-repeat center center;
+	background-size: cover;
+	width: auto;
+	min-height: 800px;
+    background-color: #9c27b0;
+    background-attachment: fixed;
+}
+
+.jumbotron h2 {
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 270px;
+    letter-spacing: 7pt;
+    color: #fff;
+}
+
+.jumbotron p {
+    font-size: 12pt;
+    font-weight: 100; 
+    color: #dcdcdc;
+    padding-top: 15px;
+    letter-spacing: 2pt;
+}
+
+.jumbotron .btn-default {
+    border-radius: 30px;
+    border: 0px;
+    padding: 14px 36px;
+    background-color: #2196f3; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1.5pt;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.jumbotron .btn-default:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/******** NAVIGATION SECTION START ********/
+
+#sidebar {
+    background: #2196f3;
+    width: 200px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: -200px;
+    top: 0px;
+    transition: left 0.3s linear;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
+#sidebar.visible {
+    left: 0px;
+    transition: left 0.3s linear;
+}
+
+#sidebar-btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: -60px;
+}
+
+#sidebar-btn span {
+    height: 2px;
+    width: 30px;
+    background: #e0e0e0;
+    margin-bottom: 5px;
+    display: block;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#sidebar ul li a {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1pt;
+    color: #fff;
+    border-bottom: 0px solid #111;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 20px; 
+}
+
+#sidebar ul li a:hover {
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    color: #e0e0e0;
+}
+
+
+
+
+/******** ABOUT SECTION START ********/
+
+.about {
+    margin-top: 150px;
+}
+
+
+.about img {
+    border-radius: 180px;
+}
+
+.about h3 {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.about .main-text {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    width: 600px;
+    color: #898989;
+    line-height: 16pt;
+}
+
+.about .btn-primary {
+    border-radius: 30px;
+    border: 0px;
+    padding: 14px 36px;
+    background-color: #f50057; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1.5pt;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.about .btn-primary:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about .btn-default {
+    border-radius: 30px;
+    border: 0px;
+    padding: 14px 36px;
+    background-color: #2196f3; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1.5pt;
+    margin-top: 20px;
+    margin-left: 70px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.about .btn-default:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/******** SERVICES SECTION START ********/
+
+.services {
+    margin-top: 150px;
+}
+
+
+.services .fa {
+    font-size: 28pt;
+    margin-top: 10px; 
+}
+
+.service-one .fa {
+    color: #ff1744;
+}
+
+.service-two .fa {
+    color: #651fff;
+}
+
+.service-three .fa {
+    color: #388e3c;
+}
+
+.services h4 {
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    margin-top: 20px; 
+}
+
+.services p {
+     margin-top: 10px;
+     font-size: 10pt;
+     font-weight: 400;
+     color: #898989;
+     letter-spacing: 1px;
+     line-height: 15pt;
+}
+
+/******** WORK SECTION START ********/
+
+.work {
+    margin-top: 150px;
+    width: auto;
+    background-color: #fafafa;
+    height: auto;
+}
+
+.work img {
+    border-radius: 7px;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.work img:hover {
+    opacity: 1s; 
+    transform: scale(1.05);
+}
+
+.work .title {
+    color: #1b1b1b;
+    margin-top: 60px;
+    float: left;
+}
+
+.work .items {
+    margin-top: 100px;
+}
+
+.work .btn-default {
+    border-radius: 30px;
+    padding: 14px 36px;
+    border: 0px;
+    background-color: #2196f3; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1.5pt;
+    margin-top: 60px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.work .btn-default:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.margin {
+    margin-bottom: 50px;
+} 
+
+.work .col-md-4 {
+    margin-top: 30px;
+}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+/******** CLIENTS SECTION START ********/
+
+.clients .title {
+    margin-top: 150px;
+}
+
+.clients p {
+    float: left;
+    letter-spacing: 1pt;
+}
+
+.logos img {
+    margin-top: 70px;
+}
+
+/******** BLOG SECTION START ********/
+
+.blog {
+    background-color: #fafafa;
+    margin-top: 150px;
+    width: auto;
+    height: auto;
+}
+
+.blog .title {
+    margin-top: 60px;
+}
+
+
+.articles img {
+    margin-top: 40px;
+}
+
+.blog-text a {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.blog-text a:hover {
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    color: #e0e0e0;
+}
+
+.blog-wrapper {
+   padding-bottom: 25px;  
+   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+   -webkit-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+.blog-wrapper:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blog-text h4 {
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    margin-top: 25px;
+    margin-left: 20px; 
+}
+
+.blog-text p {
+     margin-top: 10px;
+     font-size: 10pt;
+     font-weight: 400;
+     color: #898989;
+     letter-spacing: 1px;
+     line-height: 15pt;
+     margin-left: 20px;
+}
+
+.blog-text .date {
+    font-size: 10pt;
+}
+
+
+.blog .btn-default {
+    border-radius: 30px;
+    padding: 14px 36px;
+    border: 0px;
+    background-color: #2196f3; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1.5pt;
+    margin-top: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.blog .btn-default:hover {
+   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blog .margin {
+    margin-bottom: 70px;
+}
+
+
+/******** SOCIAL MEDIA SECTION START ********/
+
+.links {
+    background-color: #f50057;
+    width: auto;
+    height: 118px;
+}
+
+.links .fa {
+    font-size: 28px;
+    margin-top: 48px;
+    color: #fff; 
+}
+
+.links .fa:hover {
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -ms-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in;
+    color: #e0e0e0;
+}
+
+/******** CONTACT SECTION START ********/
+
+.contact {
+    background: url('../img/placeholderbg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #2196f3;
+    width: auto;
+    height: 550px;
+}
+
+.contact .info {
+    margin-top: 180px;
+}
+
+.info .btn-default {
+    border-radius: 30px;
+    padding: 14px 36px;
+    border: 0px;
+    background-color: #2196f3; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1.5pt;
+    margin-top: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.info .btn-default:hover {
+   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.info h2 {
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 7pt;
+    color: #fff;
+}
+
+.info p {
+    font-size: 12pt;
+    font-weight: 100; 
+    color: #dcdcdc;
+    padding-top: 15px;
+    letter-spacing: 2pt;
+}
+
+/******** FOOTER SECTION START ********/
+
+footer {
+    background-color: #fff;
+}
+
+footer h4 {
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    margin: 50px auto;
+    color: #1b1b1b;
+}
+
+/******** RESPONSIVE SECTION START ********/
+    @media only screen and (max-width : 980px) {
+        .about img {
+          border-radius: 360px;
+        }
+    }
+
+    @media only screen and (max-width : 800px) {
+        .about img {
+          border-radius: 360px;
+        }
+    }
+    
+    @media only screen and (max-width : 768px) {
+        .about .main-text {
+           width: 560px; 
+        }
+        .menu-btn .fa {
+          margin-top: 25px;
+          margin-left: 40px;
+        }
+        .about img {
+          border-radius: 360px;
+        }
+    }
+
+
+    @media only screen and (max-width : 480px) {
+        .about h3 {
+            margin-left: 30px;
+        }
+        .about .main-text {
+           width: 300px;
+           margin-left: 30px;
+           font-size: 10pt;
+        }
+        .menu-btn .fa {
+          margin-top: 25px;
+          margin-left: 40px;
+        }
+        .about img {
+          border-radius: 180px;
+        }
+        .about .btn-primary {
+          margin-left: 30px;  
+        }
+        .about .btn-default {
+          margin-left: 30px;  
+        }
+    }
+ 
+    @media only screen and (max-width : 320px) {
+        .about h3 {
+            margin-left: 0px;
+        }
+        .about .main-text {
+          width: 220px;
+          margin-left: 0px;
+          font-size: 10pt;
+        }
+        .menu-btn .fa {
+          margin-top: 25px;
+          margin-left: 300px;
+           
+        }
+        .about img {
+          border-radius: 180px;
+        }
+        .about .btn-primary {
+          margin-left: 0px;  
+        }
+        .about .btn-default {
+          margin-left: 0px;  
+        }
+    }
