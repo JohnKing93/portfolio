@@ -44,7 +44,7 @@ p {
 /******** JUMBOTRON SECTION START ********/
 
 .jumbotron {
-    background: url('../img/placeholderbg.jpg') no-repeat center center;
+    background: url('../img/unsplash.jpg') no-repeat center center;
 	background-size: cover;
 	width: auto;
 	min-height: 800px;
@@ -61,6 +61,14 @@ p {
     color: #fff;
 }
 
+.highlight {
+    display: inline;
+    background: black;
+    padding: 0.25em;
+    position: relative;
+    box-shadow: 0 0 black;
+}
+
 .jumbotron p {
     font-size: 12pt;
     font-weight: 100; 
@@ -73,7 +81,7 @@ p {
     border-radius: 30px;
     border: 0px;
     padding: 14px 36px;
-    background-color: #2196f3; 
+    background-color: black; 
     color: #fff;
     text-transform: uppercase;
     font-size: 8pt;
@@ -94,7 +102,7 @@ p {
 /******** NAVIGATION SECTION START ********/
 
 #sidebar {
-    background: #2196f3;
+    background: black;
     width: 200px;
     height: 100%;
     display: block;
@@ -501,7 +509,7 @@ ul li {
 /******** CONTACT SECTION START ********/
 
 .contact {
-    background: url('../img/placeholderbg.jpg') no-repeat center center;
+    background: url('../img/unsplash.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     background-color: #2196f3;
@@ -517,7 +525,7 @@ ul li {
     border-radius: 30px;
     padding: 14px 36px;
     border: 0px;
-    background-color: #2196f3; 
+    background-color: black; 
     color: #fff;
     text-transform: uppercase;
     font-size: 8pt;
